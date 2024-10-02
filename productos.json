@@ -1,0 +1,12 @@
+
+[
+    { "nombre": "Allure Home Sport Chanel", "precios": { "3ml": 10, "5ml": 15, "10ml": 22 }, "imagen": "assets/images/allure home sport.jpg" },
+    { "nombre": "Acqua di Gio", "precios": { "3ml": 9, "5ml": 13, "10ml": 20 }, "imagen": "assets/images/Acqua di Gio Profumo.jpg" },
+    { "nombre": "Bad Boy Carolina Herrera", "precios": { "3ml": 11, "5ml": 16, "10ml": 23 }, "imagen": "assets/images/bad boy.jpg" },
+    { "nombre": "Ombré Leather Tom Ford", "precios": { "3ml": 8, "5ml": 16, "10ml": 22 }, "imagen": "assets/images/tom ford ombré leather.jpg" },
+    { "nombre": "Eros Versace", "precios": { "3ml": 10, "5ml": 14, "10ml": 21 }, "imagen": "assets/images/Eros Versace.jpg" },
+    { "nombre": "Starwalker Mont Blanc", "precios": { "3ml": 11, "5ml": 16, "10ml": 23 }, "imagen": "assets/images/mont blanc starwalker.jpg" },
+    { "nombre": "Oud Wood Tom Ford", "precios": { "3ml": 14, "5ml": 22, "10ml": 28 }, "imagen": "assets/images/Oud Wood Tom Ford.jpg" },
+    { "nombre": "Cedrat Boise Mancera", "precios": { "3ml": 15, "5ml": 23, "10ml": 30 }, "imagen": "assets/images/Mancera Cedrat Boise.jpg" }
+  ]
+  

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador AROMEN X</title>
+    <link rel="icon" href="./assets/images/apple-touch-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <img src="assets/images/white_logo_transparent_background-300x300.png" alt="Logo AROMEN X" id="logo">
+        <h1 id="titulo">Simulador AROMEN X</h1>
+            </header>
+    <main>
+        <section id="productos">
+            <h2>Productos Disponibles</h2>
+            <ul id="lista-productos" class="contenedor-productos">
+                <!-- Aquí se van a agregar los productos mediante el DOM -->
+            </ul>
+        </section>
+        <section id="carrito">
+            <h2>🛒</h2>
+            <ul id="lista-carrito">
+                <!-- Aquí se se van a agregar los productos seleccionados mediante el DOM -->
+            </ul>
+            <p id="total-carrito">Total: $0</p>
+            <button id="realizar-compra">Realizar Compra</button>
+            <p id="mensaje-compra"></p>
+            <p id="mensaje-error" style="color: red; display: none;"></p>
+        </section>
+    </main>
+    <footer>
+        <p class="copyright">&copy; 2024 Cristian Ramírez</p>
+        <p class="registered">&reg; Todos los derechos reservados</p>
+    </footer>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js"></script>
+</body>
+</html>
