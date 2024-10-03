@@ -20,13 +20,13 @@ class Producto {
   
   // Evento mouseover y mouseout en el título
   titulo.addEventListener('mouseover', () => {
-      titulo.style.color = '#ff9900'; // Cambia color al pasar el mouse
-      titulo.style.transform = 'scale(1.2)'; // Aumenta el tamaño
+      titulo.style.color = '#ff9900'; 
+      titulo.style.transform = 'scale(1.2)'; 
   });
   
   titulo.addEventListener('mouseout', () => {
-      titulo.style.color = '#ffcc33'; // Regresa al color original
-      titulo.style.transform = 'scale(1)'; // Regresa al tamaño original
+      titulo.style.color = '#ffcc33'; 
+      titulo.style.transform = 'scale(1)'; 
   });
   
   // Evento mouseover y mouseout en el subtítulo (Productos Disponibles)
@@ -42,12 +42,12 @@ class Producto {
   
   // Evento mouseover y mouseout en el logo
   logo.addEventListener('mouseover', () => {
-      logo.style.transform = 'rotate(360deg)'; // Rotar el logo al pasar el mouse
-      logo.style.transition = 'transform 0.5s ease'; // Suaviza la animación
+      logo.style.transform = 'rotate(360deg)';  
+      logo.style.transition = 'transform 0.5s ease'; 
   });
   
   logo.addEventListener('mouseout', () => {
-      logo.style.transform = 'rotate(0deg)'; // Regresa a su estado inicial
+      logo.style.transform = 'rotate(0deg)'; 
   });
   
   // Función guardar el carrito en localStorage
